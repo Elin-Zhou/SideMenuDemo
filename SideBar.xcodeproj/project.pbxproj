@@ -13,6 +13,24 @@
 		9FAEBD9C1AE2AF3700FFD5C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FAEBD9B1AE2AF3700FFD5C0 /* Images.xcassets */; };
 		9FAEBD9F1AE2AF3700FFD5C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FAEBD9D1AE2AF3700FFD5C0 /* LaunchScreen.xib */; };
 		9FAEBDAB1AE2AF3700FFD5C0 /* SideBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBDAA1AE2AF3700FFD5C0 /* SideBarTests.swift */; };
+		9FAEBDCA1AE2AF5800FFD5C0 /* SidebarAirbnbAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBDBB1AE2AF5800FFD5C0 /* SidebarAirbnbAnimation.m */; };
+		9FAEBDCB1AE2AF5800FFD5C0 /* SidebarAirbnbAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBDBB1AE2AF5800FFD5C0 /* SidebarAirbnbAnimation.m */; };
+		9FAEBDCC1AE2AF5800FFD5C0 /* SidebarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBDBD1AE2AF5800FFD5C0 /* SidebarAnimation.m */; };
+		9FAEBDCD1AE2AF5800FFD5C0 /* SidebarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBDBD1AE2AF5800FFD5C0 /* SidebarAnimation.m */; };
+		9FAEBDCE1AE2AF5800FFD5C0 /* SidebarFacebookAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBDBF1AE2AF5800FFD5C0 /* SidebarFacebookAnimation.m */; };
+		9FAEBDCF1AE2AF5800FFD5C0 /* SidebarFacebookAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBDBF1AE2AF5800FFD5C0 /* SidebarFacebookAnimation.m */; };
+		9FAEBDD01AE2AF5800FFD5C0 /* SidebarFeedlyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBDC11AE2AF5800FFD5C0 /* SidebarFeedlyAnimation.m */; };
+		9FAEBDD11AE2AF5800FFD5C0 /* SidebarFeedlyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBDC11AE2AF5800FFD5C0 /* SidebarFeedlyAnimation.m */; };
+		9FAEBDD21AE2AF5800FFD5C0 /* SidebarFlipboardAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBDC31AE2AF5800FFD5C0 /* SidebarFlipboardAnimation.m */; };
+		9FAEBDD31AE2AF5800FFD5C0 /* SidebarFlipboardAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBDC31AE2AF5800FFD5C0 /* SidebarFlipboardAnimation.m */; };
+		9FAEBDD41AE2AF5800FFD5C0 /* SidebarLuvocracyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBDC51AE2AF5800FFD5C0 /* SidebarLuvocracyAnimation.m */; };
+		9FAEBDD51AE2AF5800FFD5C0 /* SidebarLuvocracyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBDC51AE2AF5800FFD5C0 /* SidebarLuvocracyAnimation.m */; };
+		9FAEBDD61AE2AF5800FFD5C0 /* SidebarWunderlistAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBDC71AE2AF5800FFD5C0 /* SidebarWunderlistAnimation.m */; };
+		9FAEBDD71AE2AF5800FFD5C0 /* SidebarWunderlistAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBDC71AE2AF5800FFD5C0 /* SidebarWunderlistAnimation.m */; };
+		9FAEBDD81AE2AF5800FFD5C0 /* TheSidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBDC91AE2AF5800FFD5C0 /* TheSidebarController.m */; };
+		9FAEBDD91AE2AF5800FFD5C0 /* TheSidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBDC91AE2AF5800FFD5C0 /* TheSidebarController.m */; };
+		9FAEBDDB1AE2B32E00FFD5C0 /* LeftController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBDDA1AE2B32E00FFD5C0 /* LeftController.swift */; };
+		9FAEBDDD1AE2B33A00FFD5C0 /* RightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBDDC1AE2B33A00FFD5C0 /* RightController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +54,25 @@
 		9FAEBDA41AE2AF3700FFD5C0 /* SideBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FAEBDA91AE2AF3700FFD5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FAEBDAA1AE2AF3700FFD5C0 /* SideBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarTests.swift; sourceTree = "<group>"; };
+		9FAEBDB41AE2AF4600FFD5C0 /* SideBar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SideBar-Bridging-Header.h"; sourceTree = "<group>"; };
+		9FAEBDBA1AE2AF5800FFD5C0 /* SidebarAirbnbAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarAirbnbAnimation.h; sourceTree = "<group>"; };
+		9FAEBDBB1AE2AF5800FFD5C0 /* SidebarAirbnbAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarAirbnbAnimation.m; sourceTree = "<group>"; };
+		9FAEBDBC1AE2AF5800FFD5C0 /* SidebarAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarAnimation.h; sourceTree = "<group>"; };
+		9FAEBDBD1AE2AF5800FFD5C0 /* SidebarAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarAnimation.m; sourceTree = "<group>"; };
+		9FAEBDBE1AE2AF5800FFD5C0 /* SidebarFacebookAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarFacebookAnimation.h; sourceTree = "<group>"; };
+		9FAEBDBF1AE2AF5800FFD5C0 /* SidebarFacebookAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarFacebookAnimation.m; sourceTree = "<group>"; };
+		9FAEBDC01AE2AF5800FFD5C0 /* SidebarFeedlyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarFeedlyAnimation.h; sourceTree = "<group>"; };
+		9FAEBDC11AE2AF5800FFD5C0 /* SidebarFeedlyAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarFeedlyAnimation.m; sourceTree = "<group>"; };
+		9FAEBDC21AE2AF5800FFD5C0 /* SidebarFlipboardAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarFlipboardAnimation.h; sourceTree = "<group>"; };
+		9FAEBDC31AE2AF5800FFD5C0 /* SidebarFlipboardAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarFlipboardAnimation.m; sourceTree = "<group>"; };
+		9FAEBDC41AE2AF5800FFD5C0 /* SidebarLuvocracyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarLuvocracyAnimation.h; sourceTree = "<group>"; };
+		9FAEBDC51AE2AF5800FFD5C0 /* SidebarLuvocracyAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarLuvocracyAnimation.m; sourceTree = "<group>"; };
+		9FAEBDC61AE2AF5800FFD5C0 /* SidebarWunderlistAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarWunderlistAnimation.h; sourceTree = "<group>"; };
+		9FAEBDC71AE2AF5800FFD5C0 /* SidebarWunderlistAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarWunderlistAnimation.m; sourceTree = "<group>"; };
+		9FAEBDC81AE2AF5800FFD5C0 /* TheSidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheSidebarController.h; sourceTree = "<group>"; };
+		9FAEBDC91AE2AF5800FFD5C0 /* TheSidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheSidebarController.m; sourceTree = "<group>"; };
+		9FAEBDDA1AE2B32E00FFD5C0 /* LeftController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftController.swift; sourceTree = "<group>"; };
+		9FAEBDDC1AE2B33A00FFD5C0 /* RightController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +114,16 @@
 		9FAEBD911AE2AF3700FFD5C0 /* SideBar */ = {
 			isa = PBXGroup;
 			children = (
+				9FAEBDB81AE2AF5800FFD5C0 /* TheSidebarController */,
 				9FAEBD941AE2AF3700FFD5C0 /* AppDelegate.swift */,
-				9FAEBD961AE2AF3700FFD5C0 /* ViewController.swift */,
 				9FAEBD981AE2AF3700FFD5C0 /* Main.storyboard */,
 				9FAEBD9B1AE2AF3700FFD5C0 /* Images.xcassets */,
 				9FAEBD9D1AE2AF3700FFD5C0 /* LaunchScreen.xib */,
 				9FAEBD921AE2AF3700FFD5C0 /* Supporting Files */,
+				9FAEBDB41AE2AF4600FFD5C0 /* SideBar-Bridging-Header.h */,
+				9FAEBD961AE2AF3700FFD5C0 /* ViewController.swift */,
+				9FAEBDDA1AE2B32E00FFD5C0 /* LeftController.swift */,
+				9FAEBDDC1AE2B33A00FFD5C0 /* RightController.swift */,
 			);
 			path = SideBar;
 			sourceTree = "<group>";
@@ -110,6 +151,37 @@
 				9FAEBDA91AE2AF3700FFD5C0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FAEBDB81AE2AF5800FFD5C0 /* TheSidebarController */ = {
+			isa = PBXGroup;
+			children = (
+				9FAEBDB91AE2AF5800FFD5C0 /* Animations */,
+				9FAEBDC81AE2AF5800FFD5C0 /* TheSidebarController.h */,
+				9FAEBDC91AE2AF5800FFD5C0 /* TheSidebarController.m */,
+			);
+			path = TheSidebarController;
+			sourceTree = "<group>";
+		};
+		9FAEBDB91AE2AF5800FFD5C0 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				9FAEBDBA1AE2AF5800FFD5C0 /* SidebarAirbnbAnimation.h */,
+				9FAEBDBB1AE2AF5800FFD5C0 /* SidebarAirbnbAnimation.m */,
+				9FAEBDBC1AE2AF5800FFD5C0 /* SidebarAnimation.h */,
+				9FAEBDBD1AE2AF5800FFD5C0 /* SidebarAnimation.m */,
+				9FAEBDBE1AE2AF5800FFD5C0 /* SidebarFacebookAnimation.h */,
+				9FAEBDBF1AE2AF5800FFD5C0 /* SidebarFacebookAnimation.m */,
+				9FAEBDC01AE2AF5800FFD5C0 /* SidebarFeedlyAnimation.h */,
+				9FAEBDC11AE2AF5800FFD5C0 /* SidebarFeedlyAnimation.m */,
+				9FAEBDC21AE2AF5800FFD5C0 /* SidebarFlipboardAnimation.h */,
+				9FAEBDC31AE2AF5800FFD5C0 /* SidebarFlipboardAnimation.m */,
+				9FAEBDC41AE2AF5800FFD5C0 /* SidebarLuvocracyAnimation.h */,
+				9FAEBDC51AE2AF5800FFD5C0 /* SidebarLuvocracyAnimation.m */,
+				9FAEBDC61AE2AF5800FFD5C0 /* SidebarWunderlistAnimation.h */,
+				9FAEBDC71AE2AF5800FFD5C0 /* SidebarWunderlistAnimation.m */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +284,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FAEBDD41AE2AF5800FFD5C0 /* SidebarLuvocracyAnimation.m in Sources */,
+				9FAEBDD01AE2AF5800FFD5C0 /* SidebarFeedlyAnimation.m in Sources */,
 				9FAEBD971AE2AF3700FFD5C0 /* ViewController.swift in Sources */,
+				9FAEBDD61AE2AF5800FFD5C0 /* SidebarWunderlistAnimation.m in Sources */,
+				9FAEBDDB1AE2B32E00FFD5C0 /* LeftController.swift in Sources */,
+				9FAEBDD81AE2AF5800FFD5C0 /* TheSidebarController.m in Sources */,
+				9FAEBDCE1AE2AF5800FFD5C0 /* SidebarFacebookAnimation.m in Sources */,
 				9FAEBD951AE2AF3700FFD5C0 /* AppDelegate.swift in Sources */,
+				9FAEBDCA1AE2AF5800FFD5C0 /* SidebarAirbnbAnimation.m in Sources */,
+				9FAEBDCC1AE2AF5800FFD5C0 /* SidebarAnimation.m in Sources */,
+				9FAEBDDD1AE2B33A00FFD5C0 /* RightController.swift in Sources */,
+				9FAEBDD21AE2AF5800FFD5C0 /* SidebarFlipboardAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +303,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FAEBDD11AE2AF5800FFD5C0 /* SidebarFeedlyAnimation.m in Sources */,
+				9FAEBDD31AE2AF5800FFD5C0 /* SidebarFlipboardAnimation.m in Sources */,
+				9FAEBDD71AE2AF5800FFD5C0 /* SidebarWunderlistAnimation.m in Sources */,
+				9FAEBDD51AE2AF5800FFD5C0 /* SidebarLuvocracyAnimation.m in Sources */,
+				9FAEBDD91AE2AF5800FFD5C0 /* TheSidebarController.m in Sources */,
 				9FAEBDAB1AE2AF3700FFD5C0 /* SideBarTests.swift in Sources */,
+				9FAEBDCF1AE2AF5800FFD5C0 /* SidebarFacebookAnimation.m in Sources */,
+				9FAEBDCB1AE2AF5800FFD5C0 /* SidebarAirbnbAnimation.m in Sources */,
+				9FAEBDCD1AE2AF5800FFD5C0 /* SidebarAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +430,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SideBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SideBar/SideBar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +443,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SideBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SideBar/SideBar-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +504,7 @@
 				9FAEBDB01AE2AF3700FFD5C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FAEBDB11AE2AF3700FFD5C0 /* Build configuration list for PBXNativeTarget "SideBarTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +513,7 @@
 				9FAEBDB31AE2AF3700FFD5C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,13 +9,44 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate,TheSidebarControllerDelegate{
 
     var window: UIWindow?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+ 
+        //创建主窗口的视图
+        var viewController = ViewController()
+        //创建主窗口视图的navigationController
+        var navigation = UINavigationController(rootViewController: viewController)
+        navigation.view.backgroundColor = UIColor.whiteColor()
+        navigation.view.layer.shadowColor = UIColor.blackColor().CGColor
+        navigation.view.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
+        navigation.view.layer.shadowOpacity = 0.6
+        navigation.view.layer.shadowRadius = 20.0
+        
+  
+        
+        //创建左菜单栏的视图
+        var left = LeftController()
+        left.view.backgroundColor = UIColor.blueColor()
+        //创建右菜单栏的视图
+        var right = RightController()
+        right.view.backgroundColor = UIColor.purpleColor()
+
+        //创建菜单控制器，传入主窗口navigationController，左菜单和右菜单
+        var sidebarController = TheSidebarController(contentViewController: navigation, leftSidebarViewController: left, rightSidebarViewController: right)
+        //设置代理
+        sidebarController.delegate = self
+        sidebarController.view.backgroundColor = UIColor.blackColor()
+
+        //设置程序入口，为菜单控制器
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window?.backgroundColor = UIColor.whiteColor()
+        self.window?.rootViewController = sidebarController
+        self.window?.makeKeyAndVisible()
         return true
     }
 
